@@ -178,6 +178,7 @@ hi_recreation_init_conda_helper <- function(env_name = "wild_hi_recreation") {
   return(env_name)
 }
 
+#set a state
 the <- new.env(parent = emptyenv())
 the$first_time <- TRUE
 

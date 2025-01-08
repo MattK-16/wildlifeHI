@@ -76,7 +76,6 @@ hi_by_trackId <- function(move,fun="hi_distance",...){
     tdiff <- round(t2-t1,digits=1)
     print(paste0('Processed: ',id,'. Processing Time: ',tdiff,' s'))
   }
-  output <- move2::mt_stack(output)  
   return(output)
 }
 
